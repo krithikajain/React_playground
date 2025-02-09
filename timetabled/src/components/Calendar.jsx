@@ -35,7 +35,7 @@ const Calendar = () => {
   <td></td>
   <td></td>
   <td></td>
-  <Event event='Yolk 🍳' color ='green'/>
+  <Event event='Yolk 🍳' color ='yellow'/>
   <td></td>
 </tr>
 <tr>
@@ -77,13 +77,13 @@ const Calendar = () => {
   <td></td>
   <td></td>
   <td></td>
-  <td></td>
+  <Event event='plant based burger🍔' subset='plant-ory'color='green' />
   <td></td>
 </tr>
 <tr>
   <td className="time">2 pm</td>
   <td></td>
-  <td></td>
+  <Event event='pilates 🧘🏻‍♀️' subset='P tribe'color='blue' />
   <td></td>
   <td></td>
   <td></td>
@@ -114,7 +114,7 @@ const Calendar = () => {
   <td className="time">5 pm</td>
   <td></td>
   <td></td>
-  <td></td>
+  <Event event='Spin Class 🤸‍♂️' subset='Spinner Round'color='blue' />
   <td></td>
   <td></td>
   <td></td>
@@ -128,7 +128,7 @@ const Calendar = () => {
   <td></td>
   <td></td>
   <td></td>
-  <td></td>
+  <Event event='boba with friends 🧋' subset='Tea DM'color='pink' />
 </tr>
 <tr>
   <td className="time">7 pm</td>
@@ -147,7 +147,7 @@ const Calendar = () => {
   <td></td>
   <td></td>
   <td></td>
-  <td></td>
+  <Event event='Dinner datedate🍴' color='pink' />
   <td></td>
 </tr>
         </tbody>
