@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+
+ body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* General styles for the Event component */
+.Event {
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Specific color styles */
+.green {
+  background-color: #d2ebbe; 
+}
+
+.blue {
+  background-color: #bed0eb; 
+}
+
+.pink {
+  background-color:#ebbeda;
+}
+
+.yellow {
+  background-color: #f7efa8;
+}
