@@ -1,0 +1,62 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4a3;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Ensure the event list is responsive */
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.event-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  flex: 1 1 calc(33.333% - 20px);
+}
+
+.event-card h2 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.event-card p {
+  margin: 5px 0;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .event-card {
+    flex: 1 1 100%;
+  }
+}
