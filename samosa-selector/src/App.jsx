@@ -21,6 +21,12 @@ function App() {
       setCount(count - 100); //deduct the cost
     }
   }
+  const buyFullFeast = () => {
+    if (count >= 1000) {
+      setMultiplier(multiplier * 10);
+      setCount(count - 1000); //deduct the cost
+    }
+  };
 
   return(
     <div className="header">
@@ -40,10 +46,15 @@ function App() {
           <p>Five times the samosas per click!</p>
           <button onClick={buyPartyPack}>Cost: 100 samosas</button>
         </div>
+        <div className="upgrade">
+          <h3>Full feast</h3>
+          <p>10 times the samosas per click!</p>
+          <button onClick={buyFullFeast}>Cost: 1000 samosas</button>
+        </div>
       </div>
     </div>
 
-  )
+  );
 }
 
 export default App
