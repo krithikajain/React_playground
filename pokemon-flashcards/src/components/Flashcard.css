@@ -1,0 +1,27 @@
+.flashcard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+}
+
+.flashcard-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 8px;
+  }
+
+.flashcard h2 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.flashcard p {
+  margin: 5px 0;
+  color: #777;
+}
