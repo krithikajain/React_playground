@@ -17,6 +17,7 @@ body {
   padding: 20px;
   color: #3e2723; /* Dark brown */
   border-bottom: 5px solid #3e2723;
+  justify-content: center;
 }
 
 .title-container h1 {
