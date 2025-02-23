@@ -1,0 +1,31 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+/* Title Container */
+.title-container {
+  text-align: center;
+  padding: 20px;
+  color: #3e2723; /* Dark brown */
+  border-bottom: 5px solid #3e2723;
+}
+
+.title-container h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.title-container p {
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+}
+
