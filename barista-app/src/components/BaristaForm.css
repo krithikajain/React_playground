@@ -32,3 +32,20 @@ form {
 .button.new-drink:hover {
   background-color: #795548;
 }
+/* Container for the form */
+.barista-form-container {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Heading */
+.barista-form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #3d2c2c;
+}
+
+/* Form */
+.barista-form-container form {
+  margin-bottom: 20px;
+}
