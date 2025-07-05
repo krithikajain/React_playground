@@ -1,0 +1,27 @@
+[
+    {
+      "temperature": "iced",
+      "syrup": "vanilla",
+      "milk": "oat",
+      "drink": "macchiato"
+    },
+    {
+      "temperature": "hot",
+      "syrup": "caramel",
+      "milk": "whole",
+      "drink": "latte"
+    },
+    {
+      "temperature": "blended",
+      "syrup": "mocha",
+      "milk": "almond",
+      "drink": "cold brew"
+    },
+    {
+      "temperature": "iced",
+      "syrup": "none",
+      "milk": "none",
+      "drink": "refresher"
+    }
+  ]
+  
